@@ -4,9 +4,13 @@ head {
 }
 
 body {
+  display: block;
   margin: 0;
-
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right: 30px;
+  align-content: center;
+  align-items: center;
 }
 
 .cabecalho {
@@ -23,7 +27,7 @@ nav {
 
 h1 {
   display: flex;
-  color: rgb(25, 21, 21);
+
   align-items: center;
   justify-content: center;
   height: 100px;
@@ -49,5 +53,49 @@ p {
   text-decoration: none;*/
 }
 
-.a {
+#profile {
+  margin-left: 100px;
+  margin-right: 100px;
 }
+
+#skills {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.hire-me {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  border-radius: 50px;
+  border-color: black;
+}
+
+#Experience {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+main grid {
+  background-color: red;
+}
+
+.itens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.co
