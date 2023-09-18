@@ -1,3 +1,8 @@
+html,
+body {
+  font-size: clamp(0.5em, 0.7em + 1vw, 1em);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -35,6 +40,14 @@ h2 {
   color: whitesmoke;
 }
 
+div::after {
+  content: ♣;
+}
+
+h3 {
+  color: black;
+}
+
 .hire-me {
   display: flex;
   position: absolute;
@@ -49,8 +62,9 @@ h2 {
 
 #info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .cv {
@@ -68,7 +82,7 @@ footer {
   justify-content: center;
 }
 
-.itens {
+#contact {
   display: flex;
   flex-direction: row;
   align-items: center;
